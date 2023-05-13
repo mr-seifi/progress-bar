@@ -1,3 +1,7 @@
+import sys
+from math import ceil
+
+
 def normal_prg(prg, all):
     sys.stdout.write('\r')
     sys.stdout.write('[%-19s] %d%%' % ('=' * int(prg / ceil(all / 20)), 
